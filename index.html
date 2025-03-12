@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RDM Gaming Hub - Team Registration</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo-container">
+            <img src="./IMG/TOUR LG.jpeg" alt="RDM Gaming Hub Logo" class="logo">
+            <!-- <img src="./IMG/SHOPING LG.png" alt="RDM Gaming Hub Logo 2" class="logo"> -->
+        </div>
+        <h2>RDM Gaming Hub</h2>
+        <p>Team Registration</p>
+        <form id="whatsappForm">
+            <input type="text" id="teamName" placeholder="Team Name" required />
+            <input type="text" id="leaderName" placeholder="Your Name" required />
+            <input type="tel" id="leaderPhone" placeholder="Leader Phone (with country code)" required />
+            <button type="submit">Register via WhatsApp</button>
+        </form>
+        <p class="footer">Powered by RDM Gaming Hub &copy;</p>
+    </div>
+
+    <script src="./index.js"></script>
+
+    <!-- <script>
+        document.getElementById("whatsappForm").addEventListener("submit", function (event) {
+            event.preventDefault();
+    
+            let teamName = document.getElementById("teamName").value;
+            let leaderName = document.getElementById("leaderName").value;
+            let leaderPhone = document.getElementById("leaderPhone").value;
+    
+            // // List of admin WhatsApp numbers (without "+")
+            // let adminNumbers = ["919061089106"];  // Add multiple admin numbers here
+    
+            // // Open WhatsApp chat for each admin
+            // adminNumbers.forEach(number => {
+            //     window.open(`https://wa.me/${number}?text=${message}`, "_blank");
+            // });
+
+            // Prepare the registration message
+            let message = `*RDM Gaming Hub - Team Registration*%0A----------------%0A*Team Name:* ${teamName}%0A*Leader Name:* ${leaderName}%0A*Phone:* ${leaderPhone}%0A*Payment Screenshot:* ${paymentScreenshot.name}`;
+
+            let adminNumber = "19876543210"; // Replace with admin's WhatsApp number (without +)
+            window.open(`https://wa.me/${adminNumber}?text=${message}`, "_blank");
+        });
+    </script> -->
+    
+
+</body>
+</html>

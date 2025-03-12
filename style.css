@@ -1,0 +1,95 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('./IMG/LG1.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container */
+.container {
+    background: rgba(0, 0, 0, 0.85);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    color: white;
+}
+
+/* Logo Styling */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Space between logos */
+    margin-bottom: 15px;
+}
+
+.logo {
+    width: 85px;
+    height: auto;
+    filter: drop-shadow(0px 0px 10px rgba(255, 0, 0, 0.8)); /* Red glow effect */
+    transition: transform 0.3s ease-in-out;
+    border-radius: 1rem;
+}
+
+.logo:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+    filter: drop-shadow(0px 0px 15px rgba(255, 255, 0, 1)); /* Yellow glow on hover */
+}
+
+/* Title */
+h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #f4b400;
+}
+
+/* Input Fields */
+input {
+    width: 85%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background: #3e3e3e; /* Darker gray background for inputs */
+    color: #f4f4f4; /* Light gray text */
+}
+
+input::placeholder {
+    color: #bbb;
+}
+
+/* Submit Button */
+button {
+    background-color: #25D366;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #1eb853;
+}
+
+/* Footer */
+.footer {
+    margin-top: 15px;
+    font-size: 14px;
+    opacity: 0.7;
+}
